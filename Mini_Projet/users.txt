@@ -1,0 +1,7 @@
+alice:password123
+bob:securepass
+charlie:admin123
+david:mypassword
+bouba:$2b$12$YnwHG8Gcuc4r0.DjOBgfyOEcYvsRT1AybpeGC9MFKacZCLhOiHP1u
+sali:$2b$12$cFeigfIMDSpY2jjEG7gzMuZv/ry/TPNnWY45SctpCw5bS6lUzGRFu
+clarisse:$2b$12$/K.c.Rm.I1gkciAErw06.ObxC3TnAhCGhSnwJFfhpDxglYRf2Ha6u
