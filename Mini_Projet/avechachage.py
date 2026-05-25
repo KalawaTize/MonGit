@@ -7,7 +7,7 @@ def save_user(username, password):
     hashed_password = bcrypt.hashpw(password.encode(), bcrypt.gensalt())
     with open(USER_FILE, "a") as f:
         f.write(f"{username}:{hashed_password.decode()}\n")
-
+ 
         
 ###2. Vérification des mots de passe hachés
 def authenticate1(username, password):
@@ -20,6 +20,7 @@ def authenticate1(username, password):
     return False
 ###3. Empêcher les attaques par force brute
 ###Implémentez un compteur de tentatives de connexion :
+
 
 login_attempts = {}
 
